@@ -1,1 +1,0 @@
--- Script inicial do projeto 
