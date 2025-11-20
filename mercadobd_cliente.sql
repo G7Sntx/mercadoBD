@@ -37,6 +37,38 @@ CREATE TABLE `cliente` (
 
 LOCK TABLES `cliente` WRITE;
 /*!40000 ALTER TABLE `cliente` DISABLE KEYS */;
+
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Lucas Almeida','111.111.111-11','(81)99999-0001');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Mariana Silva','111.111.111-12','(81)99999-0002');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Pedro Santos','111.111.111-13','(81)99999-0003');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Ana Oliveira','111.111.111-14','(81)99999-0004');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Carlos Pereira','111.111.111-15','(81)99999-0005');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Beatriz Costa','111.111.111-16','(81)99999-0006');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Ricardo Rocha','111.111.111-17','(81)99999-0007');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Fernanda Lima','111.111.111-18','(81)99999-0008');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Mateus Sousa','111.111.111-19','(81)99999-0009');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Júlia Fernandes','111.111.111-20','(81)99999-0010');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Rafael Gomes','111.111.111-21','(81)99999-0011');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Patrícia Martins','111.111.111-22','(81)99999-0012');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Bruno Dias','111.111.111-23','(81)99999-0013');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Carla Mendes','111.111.111-24','(81)99999-0014');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('André Nascimento','111.111.111-25','(81)99999-0015');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Sofia Rocha','111.111.111-26','(81)99999-0016');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Thiago Araujo','111.111.111-27','(81)99999-0017');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Larissa Pinto','111.111.111-28','(81)99999-0018');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Eduardo Alves','111.111.111-29','(81)99999-0019');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Daniela Barros','111.111.111-30','(81)99999-0020');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Vitor Campos','111.111.111-31','(81)99999-0021');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Aline Castro','111.111.111-32','(81)99999-0022');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Gustavo Melo','111.111.111-33','(81)99999-0023');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Isabela Duarte','111.111.111-34','(81)99999-0024');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Fábio Ribeiro','111.111.111-35','(81)99999-0025');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Mariele Santos','111.111.111-36','(81)99999-0026');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Leandro Silva','111.111.111-37','(81)99999-0027');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Paula Nunes','111.111.111-38','(81)99999-0028');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Rodrigo Vieira','111.111.111-39','(81)99999-0029');
+INSERT INTO cliente (nomeCliente, cpf, telefone) VALUES ('Letícia Ramos','111.111.111-40','(81)99999-0030');
+
 /*!40000 ALTER TABLE `cliente` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

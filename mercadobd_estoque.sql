@@ -38,6 +38,48 @@ CREATE TABLE `estoque` (
 
 LOCK TABLES `estoque` WRITE;
 /*!40000 ALTER TABLE `estoque` DISABLE KEYS */;
+
+INSERT INTO estoque (idProduto, quantidade) VALUES (1, 120);
+INSERT INTO estoque (idProduto, quantidade) VALUES (2, 80);
+INSERT INTO estoque (idProduto, quantidade) VALUES (3, 50);
+INSERT INTO estoque (idProduto, quantidade) VALUES (4, 200);
+INSERT INTO estoque (idProduto, quantidade) VALUES (5, 160);
+INSERT INTO estoque (idProduto, quantidade) VALUES (6, 90);
+INSERT INTO estoque (idProduto, quantidade) VALUES (7, 140);
+INSERT INTO estoque (idProduto, quantidade) VALUES (8, 300);
+INSERT INTO estoque (idProduto, quantidade) VALUES (9, 70);
+INSERT INTO estoque (idProduto, quantidade) VALUES (10, 95);
+INSERT INTO estoque (idProduto, quantidade) VALUES (11, 110);
+INSERT INTO estoque (idProduto, quantidade) VALUES (12, 60);
+INSERT INTO estoque (idProduto, quantidade) VALUES (13, 45);
+INSERT INTO estoque (idProduto, quantidade) VALUES (14, 85);
+INSERT INTO estoque (idProduto, quantidade) VALUES (15, 40);
+INSERT INTO estoque (idProduto, quantidade) VALUES (16, 250);
+INSERT INTO estoque (idProduto, quantidade) VALUES (17, 130);
+INSERT INTO estoque (idProduto, quantidade) VALUES (18, 55);
+INSERT INTO estoque (idProduto, quantidade) VALUES (19, 70);
+INSERT INTO estoque (idProduto, quantidade) VALUES (20, 400);
+INSERT INTO estoque (idProduto, quantidade) VALUES (21, 150);
+INSERT INTO estoque (idProduto, quantidade) VALUES (22, 35);
+INSERT INTO estoque (idProduto, quantidade) VALUES (23, 60);
+INSERT INTO estoque (idProduto, quantidade) VALUES (24, 88);
+INSERT INTO estoque (idProduto, quantidade) VALUES (25, 25);
+INSERT INTO estoque (idProduto, quantidade) VALUES (26, 72);
+INSERT INTO estoque (idProduto, quantidade) VALUES (27, 200);
+INSERT INTO estoque (idProduto, quantidade) VALUES (28, 90);
+INSERT INTO estoque (idProduto, quantidade) VALUES (29, 55);
+INSERT INTO estoque (idProduto, quantidade) VALUES (30, 120);
+INSERT INTO estoque (idProduto, quantidade) VALUES (31, 95);
+INSERT INTO estoque (idProduto, quantidade) VALUES (32, 48);
+INSERT INTO estoque (idProduto, quantidade) VALUES (33, 160);
+INSERT INTO estoque (idProduto, quantidade) VALUES (34, 20);
+INSERT INTO estoque (idProduto, quantidade) VALUES (35, 140);
+INSERT INTO estoque (idProduto, quantidade) VALUES (36, 75);
+INSERT INTO estoque (idProduto, quantidade) VALUES (37, 180);
+INSERT INTO estoque (idProduto, quantidade) VALUES (38, 90);
+INSERT INTO estoque (idProduto, quantidade) VALUES (39, 65);
+INSERT INTO estoque (idProduto, quantidade) VALUES (40, 110);
+
 /*!40000 ALTER TABLE `estoque` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

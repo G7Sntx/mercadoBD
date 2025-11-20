@@ -39,6 +39,38 @@ CREATE TABLE `entradaestoque` (
 
 LOCK TABLES `entradaestoque` WRITE;
 /*!40000 ALTER TABLE `entradaestoque` DISABLE KEYS */;
+
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (1, 50, '2025-01-10');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (2, 30, '2025-02-12');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (3, 40, '2025-03-05');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (4, 100, '2025-01-20');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (5, 60, '2025-04-02');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (6, 45, '2025-05-15');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (7, 70, '2025-06-10');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (8, 120, '2025-07-01');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (9, 20, '2025-02-20');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (10, 50, '2025-03-18');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (11, 40, '2025-04-25');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (12, 30, '2025-05-03');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (13, 25, '2025-06-18');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (14, 60, '2025-07-22');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (15, 20, '2025-08-05');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (16, 100, '2025-09-10');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (17, 50, '2025-10-01');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (18, 30, '2025-06-30');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (19, 40, '2025-05-20');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (20, 200, '2025-04-12');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (21, 80, '2025-03-30');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (22, 20, '2025-02-28');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (23, 45, '2025-01-15');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (24, 60, '2025-05-08');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (25, 10, '2025-03-12');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (26, 35, '2025-07-09');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (27, 90, '2025-08-20');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (28, 40, '2025-09-14');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (29, 25, '2025-10-05');
+INSERT INTO entradaestoque (idProduto, quantidade, dataEntrada) VALUES (30, 70, '2025-11-01');
+
 /*!40000 ALTER TABLE `entradaestoque` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -42,6 +42,28 @@ CREATE TABLE `pagamento` (
 
 LOCK TABLES `pagamento` WRITE;
 /*!40000 ALTER TABLE `pagamento` DISABLE KEYS */;
+
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (1, 2, 45.60, '2025-01-10');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (2, 4, 23.90, '2025-01-12');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (3, 3, 120.00, '2025-02-01');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (4, 1, 15.30, '2025-02-15');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (5, 1, 78.20, '2025-03-03');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (6, 4, 32.50, '2025-03-20');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (7, 2, 56.00, '2025-04-11');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (8, 3, 95.40, '2025-04-20');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (9, 1, 10.00, '2025-05-05');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (10, 2, 210.80, '2025-05-25');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (11, 1, 64.50, '2025-06-03');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (12, 4, 34.90, '2025-06-18');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (13, 3, 89.00, '2025-07-01');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (14, 2, 47.20, '2025-07-10');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (15, 4, 19.80, '2025-07-22');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (16, 1, 140.00, '2025-08-02');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (17, 5, 55.50, '2025-08-15');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (18, 6, 33.30, '2025-09-01');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (19, 7, 77.70, '2025-09-11');
+INSERT INTO pagamento (idVenda, idFormaPagamento, valor, dataPagamento) VALUES (20, 8, 28.80, '2025-09-25');
+
 /*!40000 ALTER TABLE `pagamento` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

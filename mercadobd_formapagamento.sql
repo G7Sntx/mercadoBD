@@ -36,6 +36,18 @@ CREATE TABLE `formapagamento` (
 
 LOCK TABLES `formapagamento` WRITE;
 /*!40000 ALTER TABLE `formapagamento` DISABLE KEYS */;
+
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('Dinheiro', 0.00);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('Cartão Débito', 1.20);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('Cartão Crédito', 2.50);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('PIX', 0.00);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('Vale Refeição', 0.00);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('Boleto', 0.50);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('Transferência', 0.30);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('Cheque', 0.10);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('App Pagamento', 1.00);
+INSERT INTO formapagamento (nomeForma, taxaPercentual) VALUES ('Crédito Loja', 0.00);
+
 /*!40000 ALTER TABLE `formapagamento` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

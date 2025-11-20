@@ -40,6 +40,28 @@ CREATE TABLE `funcionario` (
 
 LOCK TABLES `funcionario` WRITE;
 /*!40000 ALTER TABLE `funcionario` DISABLE KEYS */;
+
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('João Silva','222.222.222-01','(81)98888-0001',1);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Marcos Pereira','222.222.222-02','(81)98888-0002',2);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Patrícia Alves','222.222.222-03','(81)98888-0003',3);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Renato Costa','222.222.222-04','(81)98888-0004',4);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Elisa Ramos','222.222.222-05','(81)98888-0005',5);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Bruno Lima','222.222.222-06','(81)98888-0006',6);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Camila Souza','222.222.222-07','(81)98888-0007',7);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Fábio Santos','222.222.222-08','(81)98888-0008',8);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Renata Melo','222.222.222-09','(81)98888-0009',9);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Igor Fernandes','222.222.222-10','(81)98888-0010',10);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Vanessa Pinto','222.222.222-11','(81)98888-0011',11);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Alex Costa','222.222.222-12','(81)98888-0012',12);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Sérgio Rocha','222.222.222-13','(81)98888-0013',13);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Marta Dias','222.222.222-14','(81)98888-0014',14);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Paulo Henrique','222.222.222-15','(81)98888-0015',15);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Rosa Carvalho','222.222.222-16','(81)98888-0016',1);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Victor Nunes','222.222.222-17','(81)98888-0017',2);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Helena Moraes','222.222.222-18','(81)98888-0018',3);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Diego Barros','222.222.222-19','(81)98888-0019',4);
+INSERT INTO funcionario (nomeFuncionario, cpf, telefone, idCargo) VALUES ('Lívia Gomes','222.222.222-20','(81)98888-0020',5);
+
 /*!40000 ALTER TABLE `funcionario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

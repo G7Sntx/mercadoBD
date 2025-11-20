@@ -35,6 +35,28 @@ CREATE TABLE `marca` (
 
 LOCK TABLES `marca` WRITE;
 /*!40000 ALTER TABLE `marca` DISABLE KEYS */;
+
+INSERT INTO marca (nomeMarca) VALUES ('Alfa');
+INSERT INTO marca (nomeMarca) VALUES ('Bella');
+INSERT INTO marca (nomeMarca) VALUES ('CampoVerde');
+INSERT INTO marca (nomeMarca) VALUES ('DeliMais');
+INSERT INTO marca (nomeMarca) VALUES ('Essência');
+INSERT INTO marca (nomeMarca) VALUES ('FrescoVida');
+INSERT INTO marca (nomeMarca) VALUES ('GranPão');
+INSERT INTO marca (nomeMarca) VALUES ('HappyPet');
+INSERT INTO marca (nomeMarca) VALUES ('ItaMix');
+INSERT INTO marca (nomeMarca) VALUES ('Jardim');
+INSERT INTO marca (nomeMarca) VALUES ('Kombu');
+INSERT INTO marca (nomeMarca) VALUES ('LactoBom');
+INSERT INTO marca (nomeMarca) VALUES ('Moinho');
+INSERT INTO marca (nomeMarca) VALUES ('NaturaFood');
+INSERT INTO marca (nomeMarca) VALUES ('Orgânico+');
+INSERT INTO marca (nomeMarca) VALUES ('Prime');
+INSERT INTO marca (nomeMarca) VALUES ('Quali');
+INSERT INTO marca (nomeMarca) VALUES ('Rural');
+INSERT INTO marca (nomeMarca) VALUES ('SaborCasa');
+INSERT INTO marca (nomeMarca) VALUES ('TopLine');
+
 /*!40000 ALTER TABLE `marca` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

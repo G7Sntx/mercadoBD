@@ -35,6 +35,28 @@ CREATE TABLE `categoria` (
 
 LOCK TABLES `categoria` WRITE;
 /*!40000 ALTER TABLE `categoria` DISABLE KEYS */;
+
+INSERT INTO categoria (nomeCategoria) VALUES ('Hortifruti');
+INSERT INTO categoria (nomeCategoria) VALUES ('Frios e Laticínios');
+INSERT INTO categoria (nomeCategoria) VALUES ('Carnes');
+INSERT INTO categoria (nomeCategoria) VALUES ('Padaria');
+INSERT INTO categoria (nomeCategoria) VALUES ('Bebidas Não Alcoólicas');
+INSERT INTO categoria (nomeCategoria) VALUES ('Bebidas Alcoólicas');
+INSERT INTO categoria (nomeCategoria) VALUES ('Limpeza Doméstica');
+INSERT INTO categoria (nomeCategoria) VALUES ('Higiene Pessoal');
+INSERT INTO categoria (nomeCategoria) VALUES ('Mercearia');
+INSERT INTO categoria (nomeCategoria) VALUES ('Enlatados e Conservas');
+INSERT INTO categoria (nomeCategoria) VALUES ('Doces e Sobremesas');
+INSERT INTO categoria (nomeCategoria) VALUES ('Cereais e Grãos');
+INSERT INTO categoria (nomeCategoria) VALUES ('Congelados');
+INSERT INTO categoria (nomeCategoria) VALUES ('Pet Shop');
+INSERT INTO categoria (nomeCategoria) VALUES ('Saúde e Bem-estar');
+INSERT INTO categoria (nomeCategoria) VALUES ('Produtos de Papel');
+INSERT INTO categoria (nomeCategoria) VALUES ('Molhos e Temperos');
+INSERT INTO categoria (nomeCategoria) VALUES ('Produtos Naturais');
+INSERT INTO categoria (nomeCategoria) VALUES ('Bebê e Infantil');
+INSERT INTO categoria (nomeCategoria) VALUES ('Utilidades Domésticas');
+
 /*!40000 ALTER TABLE `categoria` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

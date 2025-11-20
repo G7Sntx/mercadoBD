@@ -35,6 +35,23 @@ CREATE TABLE `cargo` (
 
 LOCK TABLES `cargo` WRITE;
 /*!40000 ALTER TABLE `cargo` DISABLE KEYS */;
+
+INSERT INTO cargo (nomeCargo) VALUES ('Gerente Geral');
+INSERT INTO cargo (nomeCargo) VALUES ('Gerente de Setor');
+INSERT INTO cargo (nomeCargo) VALUES ('Supervisor de Loja');
+INSERT INTO cargo (nomeCargo) VALUES ('Caixa');
+INSERT INTO cargo (nomeCargo) VALUES ('Repositor');
+INSERT INTO cargo (nomeCargo) VALUES ('Estoquista');
+INSERT INTO cargo (nomeCargo) VALUES ('Balconista');
+INSERT INTO cargo (nomeCargo) VALUES ('Açougueiro');
+INSERT INTO cargo (nomeCargo) VALUES ('Peixeiro');
+INSERT INTO cargo (nomeCargo) VALUES ('Padeiro');
+INSERT INTO cargo (nomeCargo) VALUES ('Auxiliar de Limpeza');
+INSERT INTO cargo (nomeCargo) VALUES ('Segurança');
+INSERT INTO cargo (nomeCargo) VALUES ('Fiscal de Caixa');
+INSERT INTO cargo (nomeCargo) VALUES ('Conferente');
+INSERT INTO cargo (nomeCargo) VALUES ('Entregador');
+
 /*!40000 ALTER TABLE `cargo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
